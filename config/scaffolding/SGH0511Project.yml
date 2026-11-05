@@ -21,6 +21,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
+- name: WmAmazonGlueProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+  wpmVersion: v12.0.0
 services:
 - serviceName: project.sgh0511.integrations:bitbucketfs
   packages:
